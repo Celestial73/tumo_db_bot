@@ -5,9 +5,8 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import sqlite3
 
 API_KEY = '2035136795:AAEmsoaL6MTUnQha1lb8L0aJ3fj0kx_-3GM'
-secret = "dkfjgoenwovrujloijdio345u8oji"
-url = "https://celestial73.pythonanywhere.com/" + secret
 bot = telebot.TeleBot(API_KEY)
+
 current_id = 0
 current_activity_id = 0
 default_coins = 800
